@@ -20,7 +20,7 @@ jobs:
       - run: flutter test
       - run: flutter build apk
         # Upload generated apk to the
-    artifacts:
+    artifact:
       - uses: actions/upload-artifact@v1
         with:
           name: release-apk
