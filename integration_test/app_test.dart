@@ -8,7 +8,7 @@ void main() {
     final binding = IntegrationTestWidgetsFlutterBinding.ensureInitialized();
     binding.framePolicy = LiveTestWidgetsFlutterBindingFramePolicy.fullyLive;
 
-    testWidgets("Calculatorni textfield va button'lar ishlashini tekshirish",
+    testWidgets("Calculatorni textfield va buttonlar ishlashini tekshirish",
         (widgetTester) async {
       // MainApp vidjetini yaratadi
       await widgetTester.pumpWidget(const MainApp());
