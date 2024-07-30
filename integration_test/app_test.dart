@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:integration_test/integration_test.dart';
 import 'package:lesson86_testing/main.dart';
 
 void main() {
   group("Calculator TEST", () {
-    final binding = IntegrationTestWidgetsFlutterBinding.ensureInitialized();
-    binding.framePolicy = LiveTestWidgetsFlutterBindingFramePolicy.fullyLive;
 
     testWidgets("Calculatorni textfield va buttonlar ishlashini tekshirish",
         (widgetTester) async {
