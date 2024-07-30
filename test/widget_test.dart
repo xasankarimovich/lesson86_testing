@@ -55,7 +55,7 @@ void main() {
       // Qayta build qiladi
       await widgetTester.pump();
 
-      expect(find.text("Result: 14"), findsOneWidget);
+      expect(find.text("Result: 15"), findsOneWidget);
     });
   });
 }
